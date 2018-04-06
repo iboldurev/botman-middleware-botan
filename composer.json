@@ -19,8 +19,7 @@
         "botman/botman": "~2.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~5.0",
-        "cs": "php-cs-fixer fix"
+        "phpunit/phpunit": "~5.0"
     },
     "autoload": {
         "psr-4": {
