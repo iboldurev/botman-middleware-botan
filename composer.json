@@ -1,0 +1,38 @@
+{
+    "name": "iboldurev/botman-middleware-botan",
+    "description": "Botan middleware for Botman",
+    "license": "MIT",
+    "keywords": [
+        "Bot",
+        "Botan",
+        "BotMan"
+    ],
+    "homepage": "http://github.com/iboldurev/botman-middleware-botan",
+    "authors": [
+        {
+            "name": "Ivan Boldyrev",
+            "email": "iboldurev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "botman/botman": "~2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0",
+        "cs": "php-cs-fixer fix"
+    },
+    "autoload": {
+        "psr-4": {
+            "BotMan\\Middleware\\Botan\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
